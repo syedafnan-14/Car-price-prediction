@@ -11,3 +11,22 @@ This project is a Streamlit application that predicts car prices based on user i
 - **Transmission Type**: Select the transmission type (e.g., manual, automatic).
 - **Age**: Use a slider to select the age of the car (in years).
 - **Kilometers Driven**: Use a slider to specify the distance driven by the car.
+
+## Create a Virtual Environment
+```
+python -m venv venv
+```
+Activate the Virtual Environment in Windows
+```
+venv\Scripts\activate
+```
+
+## Install Dependencies
+```
+pip install -r requirements.txt
+```
+
+## Run the Project
+```
+streamlit run car.py
+```
